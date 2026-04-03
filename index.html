@@ -1373,7 +1373,7 @@ function healP(p,amt){
 
 /* ══════════ MONSTER ATTACKS ══════════ */
 function scheduleAtks(){
-  const base=Math.max(3500,9000-G.floor*500);
+  const base=Math.max(3500,9000-G.floor*400);
   G.mon.patterns.forEach(p=>{
     const delay={
       bodySlam:   base,
